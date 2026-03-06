@@ -30,7 +30,7 @@
   #navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 0;transition:all 0.4s cubic-bezier(0.4,0,0.2,1)}
   #navbar.scrolled{background:rgba(255,255,255,0.93);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:12px 0;box-shadow:0 1px 0 rgba(0,0,0,0.06),0 4px 24px rgba(0,0,0,0.06)}
   .nav-inner{max-width:1200px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between}
-  .nav-logo{font-family:'Poppins',sans-serif;font-weight:800;font-size:1.45rem;color:var(--g-primary);text-decoration:none;letter-spacing:-0.5px;display:flex;align-items:center;gap:8px}
+  .nav-logo{font-family:'Poppins',sans-serif;font-weight:800;font-size:1.45rem;color:var(--g-primary);text-decoration:none;letter-spacing:-0.5px;display:flex;align-items:center;gap:8px; margin: 20px;}
   .nav-logo-icon{width:32px;height:32px;background:var(--grad-main);border-radius:10px;display:flex;align-items:center;justify-content:center}
   .nav-links{display:flex;align-items:center;gap:32px;list-style:none}
   .nav-links a{font-size:0.875rem;font-weight:500;color:var(--text-dark);text-decoration:none;transition:color 0.2s}
