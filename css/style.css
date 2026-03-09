@@ -637,7 +637,45 @@ grid-column:span 1;
 
 /* Mobile Responsive Fix */
 /* FINAL MOBILE FIX FOR BADGES */
+.phone-hero{
+  position:relative;
+  width:420px;
+  height:520px;
+  margin:auto;
+}
 
+.phone{
+  position:absolute;
+  width:220px;
+  height:auto;
+  border-radius:30px;
+  transition:0.4s;
+}
+
+/* center phone */
+.phone-center{
+  left:50%;
+  transform:translateX(-50%);
+  z-index:3;
+}
+
+/* left phone */
+.phone-left{
+  left:0;
+  top:40px;
+  transform:rotate(-18deg);
+  z-index:1;
+  opacity:0.9;
+}
+
+/* right phone */
+.phone-right{
+  right:0;
+  top:40px;
+  transform:rotate(18deg);
+  z-index:1;
+  opacity:0.9;
+}
 
 
   /* ── RESPONSIVE ── */
